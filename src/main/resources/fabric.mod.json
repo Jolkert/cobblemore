@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblemore",
+  "version": "${version}",
+  "name": "Cobblemore",
+  "description": "Adds more held items to Cobblemon",
+  "authors": [
+    "Jolkert"
+  ],
+  "contact": {
+    "website": "jolkert.github.io",
+    "repo": "https://github.com/Jolkert/more_held_items"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/cobblemore/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "io.github.jolkert.cobblemore.Cobblemore"
+      }
+    ]
+  },
+  "mixins": [
+    "cobblemore.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "fabric-language-kotlin": ">=${fabric_language_kotlin_version}",
+    "cobblemon": ">=${cobblemon_version}"
+  }
+}
