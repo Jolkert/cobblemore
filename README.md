@@ -2,7 +2,7 @@
 Cobblemon is missing a lot of competitive items. This mod addresses that. Its unfinished and ugly, as the sprites are just straight rips from Bulbapedia, but that's slated to change in the future
 
 ## What does it add?
-Cobblemore adds many items that aren't present in base Cobblemon including:
+Cobblemore adds many held items that aren't present in base Cobblemon including:
 - Eviolite
 - Life Orb
 - Expert Belt
@@ -25,6 +25,8 @@ Cobblemore adds many items that aren't present in base Cobblemon including:
 - Covert Cloak
 - Utility Umbrella
 - Shed Shell
+
+It also adds the Ability Capsule and Ability Patch items for changing abilities
 
 ## What does it *not* add?
 Currently, ***there is no way to obtain any of these items in survival mode***  
