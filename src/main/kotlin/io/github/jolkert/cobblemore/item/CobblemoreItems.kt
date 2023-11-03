@@ -44,7 +44,8 @@ object CobblemoreItems
 	fun heldItem(id: String) = create(id, CobblemonItemGroups.HELD_ITEMS_KEY, true)
 
 	@JvmStatic
-	fun useOnEntityItem(id: String, groupKey: RegistryKey<ItemGroup>?, lambda: UseOverride) = preRegister(id, UseOnEntityItem(FabricItemSettings(), lambda))
+	fun useOnEntityItem(id: String, groupKey: RegistryKey<ItemGroup>?, lambda: UseOverride) =
+		preRegister(id, UseOnEntityItem(FabricItemSettings(), lambda), groupKey)
 
 	@JvmStatic
 	fun preRegister(id: String, item: Item, groupKey: RegistryKey<ItemGroup>? = null, isHeldItem: Boolean = false) = item.also {
