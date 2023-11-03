@@ -1,5 +1,6 @@
 package io.github.jolkert.cobblemore.item
 
+import com.cobblemon.mod.common.item.CobblemonItem
 import com.cobblemon.mod.common.item.group.CobblemonItemGroups
 import com.cobblemon.mod.common.pokemon.helditem.CobblemonHeldItemManager
 import io.github.jolkert.cobblemore.Cobblemore
@@ -43,7 +44,7 @@ object CobblemoreItems
 	fun heldItem(id: String) = create(id, CobblemonItemGroups.HELD_ITEMS_KEY, true)
 
 	@JvmStatic
-	fun useOnEntityItem(id: String, lambda: UseOverride) = preRegister(id, UseOnEntityItem(FabricItemSettings(), lambda))
+	fun useOnEntityItem(id: String, groupKey: RegistryKey<ItemGroup>?, lambda: UseOverride) = preRegister(id, UseOnEntityItem(FabricItemSettings(), lambda))
 
 	@JvmStatic
 	fun preRegister(id: String, item: Item, groupKey: RegistryKey<ItemGroup>? = null, isHeldItem: Boolean = false) = item.also {
@@ -63,7 +64,8 @@ object CobblemoreItems
 	}
 
 	// Pokemon Modifying Items
-	@JvmField val ABILITY_CAPSULE = useOnEntityItem("ability_capsule", ItemFunctions::useAbilityCapsule)
+	@JvmField val ABILITY_CAPSULE =
+		useOnEntityItem("ability_capsule",CobblemonItemGroups.CONSUMABLES_KEY, ItemFunctions::useAbilityCapsule)
 	// @JvmField val ABILITY_PATCH = create("ability_patch", CobblemonItemGroups.CONSUMABLES_KEY)
 
 	// Held items
