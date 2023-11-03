@@ -66,7 +66,8 @@ object CobblemoreItems
 	// Pokemon Modifying Items
 	@JvmField val ABILITY_CAPSULE =
 		useOnEntityItem("ability_capsule",CobblemonItemGroups.CONSUMABLES_KEY, ItemFunctions::useAbilityCapsule)
-	// @JvmField val ABILITY_PATCH = create("ability_patch", CobblemonItemGroups.CONSUMABLES_KEY)
+	@JvmField val ABILITY_PATCH =
+		useOnEntityItem("ability_patch", CobblemonItemGroups.CONSUMABLES_KEY, ItemFunctions::useAbilityPatch)
 
 	// Held items
 	@JvmField val EVIOLITE = heldItem("eviolite")

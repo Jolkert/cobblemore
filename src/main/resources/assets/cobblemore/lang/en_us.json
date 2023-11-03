@@ -1,5 +1,6 @@
 {
 	"item.cobblemore.ability_capsule": "Ability Capsule",
+	"item.cobblemore.ability_patch": "Ability Patch",
 	"item.cobblemore.air_balloon": "Air Balloon",
 	"item.cobblemore.blunder_policy": "Blunder Policy",
 	"item.cobblemore.covert_cloak": "Covert Cloak",
@@ -37,5 +38,8 @@
 	"cobblemore.item.ability_capsule.fail.has_hidden": "%s's ability could not be changed because it has its hidden ability!",
 	"cobblemore.item.ability_capsule.fail.one_ability": "%s's ability could not be changed because it only has one non-hidden ability!",
 	"cobblemore.item.ability_capsule.fail.forced":  "%'s ability could not be changed because it has a forced ability!",
-	"cobblemore.item.ability_capsule.success": "%s's ability was changed to %s!"
+	"cobblemore.item.ability_capsule.success": "%s's ability was changed to %s!",
+
+	"cobblemore.item.ability_patch.fail.forced": "%s's ability could not be changed because it has a forced ability!",
+	"cobblemore.item.ability_patch.success": "%s's ability was changed to %s!"
 }
