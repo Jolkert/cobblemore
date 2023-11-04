@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WW ",
+		"WS ",
+		"  S"
+	],
+	"key": {
+		"W": {
+			"item": "minecraft:black_wool"
+		},
+		"S": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "cobblemore:utility_umbrella"
+	}
+}

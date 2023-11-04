@@ -26,11 +26,14 @@ Cobblemore adds many held items that aren't present in base Cobblemon including:
 - Utility Umbrella
 - Shed Shell
 
-It also adds the Ability Capsule and Ability Patch items for changing abilities
+It also adds the Ability Capsule and Ability Patch items for changing abilities.  
+The shoal shells and shoal salt are added to craft the shell bell. They are both randomly dropped by sand, like how flint is obtained from gravel.
 
-## What does it *not* add?
-Currently, ***there is no way to obtain any of these items in survival mode***  
-This *is* a planned feature, however, and if you have any suggestions for methods, feel free to either submit a feature request on [GitHub](https://github.com/Jolkert/cobblemore/issues), or make a request in [my discord server](https://github.com/Jolkert/cobblemore/issues)
+Certain items are missing methods to obtain them in survival. These include:
+- Weakness/Blunder Policy
+- Loaded Dice
+- Throat Spray
+- Shed Shell
 
 ## Find a bug?
 Report it on the [GitHub issues page](https://github.com/Jolkert/cobblemore/issues)!

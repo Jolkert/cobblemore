@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" A ",
+		"AEA",
+		" D "
+	],
+	"key": {
+		"A": {
+			"item": "minecraft:amethyst_shard"
+		},
+		"E": {
+			"item": "minecraft:egg"
+		},
+		"D": {
+			"item": "minecraft:diamond"
+		}
+	},
+	"result": {
+		"item": "cobblemore:eviolite"
+	}
+}

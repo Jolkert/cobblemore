@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" SG",
+		" SG",
+		" I "
+	],
+	"key": {
+		"G": {
+			"item": "minecraft:gold_ingot"
+		},
+		"I": {
+			"item": "minecraft:iron_ingot"
+		},
+		"S": {
+			"item": "minecraft:spyglass"
+		}
+	},
+	"result": {
+		"item": "cobblemore:scope_lens"
+	}
+}

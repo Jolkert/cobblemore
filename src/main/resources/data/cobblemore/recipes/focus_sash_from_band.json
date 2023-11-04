@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "cobblemon:focus_band"
+		},
+		{
+			"item": "cobblemon:black_belt"
+		}
+	],
+	"result": {
+		"item": "cobblemore:focus_sash"
+	}
+}

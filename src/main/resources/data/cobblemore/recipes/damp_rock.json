@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" C ",
+		"CRC",
+		" C "
+	],
+	"key": {
+		"C": {
+			"item": "minecraft:water_bucket"
+		},
+		"R": {
+			"item": "minecraft:stone"
+		}
+	},
+	"result": {
+		"item": "cobblemore:damp_rock"
+	}
+}

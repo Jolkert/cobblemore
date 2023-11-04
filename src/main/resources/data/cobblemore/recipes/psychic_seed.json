@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" C ",
+		"CSC",
+		" C "
+	],
+	"key": {
+		"C": {
+			"item": "minecraft:popped_chorus_fruit"
+		},
+		"S": {
+			"item": "minecraft:beetroot_seeds"
+		}
+	},
+	"result": {
+		"item": "cobblemore:psychic_seed"
+	}
+}

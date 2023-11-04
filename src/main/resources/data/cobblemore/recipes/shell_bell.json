@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shapeless", 
+    "ingredients": [
+      {
+        "item": "cobblemore:shoal_salt"
+      },
+      {
+        "item": "cobblemore:shoal_salt"
+      },
+      {
+        "item": "cobblemore:shoal_salt"
+      },
+      {
+        "item": "cobblemore:shoal_salt"
+      },
+      {
+        "item": "cobblemore:shoal_shell"
+      },
+      {
+        "item": "cobblemore:shoal_shell"
+      },
+      {
+        "item": "cobblemore:shoal_shell"
+      },
+      {
+        "item": "cobblemore:shoal_shell"
+      }
+    ],
+    "result": {
+      "item": "cobblemore:shell_bell"
+    }
+  }
+  

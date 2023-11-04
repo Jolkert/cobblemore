@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" G ",
+		"DPD",
+		"BSB"
+	],
+	"key": {
+		"P": {
+			"item": "minecraft:paper"
+		},
+		"D": {
+			"item": "minecraft:diamond"
+		},
+		"G": {
+			"item": "minecraft:gold_ingot"
+		},
+		"S": {
+			"item": "minecraft:slime_ball"
+		},
+		"B": {
+			"item": "cobblemon:medicinal_brew"
+		}
+	},
+	"result": {
+		"item": "cobblemore:ability_patch"
+	}
+}

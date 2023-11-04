@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "cobblemore:psychic_seed"
+		},
+		{
+			"item": "cobblemore:electric_seed"
+		},
+		{
+			"item": "cobblemore:grassy_seed"
+		},
+		{
+			"item": "cobblemore:misty_seed"
+		},
+		{
+			"item": "minecraft:dragon_breath"
+		}
+	],
+	"result": {
+		"item": "cobblemore:terrain_extender"
+	}
+}

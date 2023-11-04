@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"MW ",
+		"WSS",
+		"  S"
+	],
+	"key": {
+		"M": {
+			"item": "minecraft:phantom_membrane"
+		},
+		"W": {
+			"item": "minecraft:red_wool"
+		},
+		"S": {
+			"item": "minecraft:string"
+		}
+	},
+	"result": {
+		"item": "cobblemore:air_balloon"
+	}
+}

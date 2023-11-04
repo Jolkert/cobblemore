@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WWW",
+		"WCW",
+		"WWW"
+	],
+	"key": {
+		"W": {
+			"tag": "minecraft:wool"
+		},
+		"C": {
+			"item": "minecraft:leather_chestplate"
+		}
+	},
+	"result": {
+		"item": "cobblemore:protective_pads"
+	}
+}

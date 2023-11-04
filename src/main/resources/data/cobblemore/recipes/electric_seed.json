@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" C ",
+		"CSC",
+		" C "
+	],
+	"key": {
+		"C": {
+			"item": "minecraft:redstone"
+		},
+		"S": {
+			"item": "minecraft:pumpkin_seeds"
+		}
+	},
+	"result": {
+		"item": "cobblemore:electric_seed"
+	}
+}

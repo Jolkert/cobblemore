@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"DDD",
+		"DPD",
+		"DDD"
+	],
+	"key": {
+		"D": {
+			"item": "minecraft:red_dye"
+		},
+		"P": {
+			"item": "minecraft:paper"
+		}
+	},
+	"result": {
+		"item": "cobblemore:red_card"
+	}
+}

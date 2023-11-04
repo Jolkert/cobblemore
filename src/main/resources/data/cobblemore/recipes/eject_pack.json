@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:tripwire_hook"
+		},
+		{
+			"item": "minecraft:ender_pearl"
+		},
+		{
+			"item": "minecraft:bundle"
+		}
+	],
+	"result": {
+		"item": "cobblemore:eject_pack"
+	}
+}

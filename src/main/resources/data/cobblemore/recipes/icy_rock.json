@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" C ",
+		"CRC",
+		" C "
+	],
+	"key": {
+		"C": {
+			"item": "minecraft:ice"
+		},
+		"R": {
+			"item": "minecraft:stone"
+		}
+	},
+	"result": {
+		"item": "cobblemore:icy_rock"
+	}
+}

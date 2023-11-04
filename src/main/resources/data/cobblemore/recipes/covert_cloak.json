@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"DDD",
+		"DHD",
+		"DCD"
+	],
+	"key": {
+		"D": {
+			"item": "minecraft:black_dye"
+		},
+		"H": {
+			"item": "minecraft:leather_helmet"
+		},
+		"C": {
+			"item": "minecraft:leather_chestplate"
+		}
+	},
+	"result": {
+		"item": "cobblemore:covert_cloak"
+	}
+}

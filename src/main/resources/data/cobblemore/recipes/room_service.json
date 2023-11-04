@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"B",
+		"C",
+		"M"
+	],
+	"key": {
+		"B": {
+			"item": "minecraft:bowl"
+		},
+		"C": {
+			"item": "minecraft:white_carpet"
+		},
+		"M": {
+			"item": "minecraft:minecart"
+		}
+	},
+	"result": {
+		"item": "cobblemore:room_service"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" C ",
+		"CSC",
+		" C "
+	],
+	"key": {
+		"C": {
+			"item": "minecraft:prismarine_crystals"
+		},
+		"S": {
+			"item": "minecraft:melon_seeds"
+		}
+	},
+	"result": {
+		"item": "cobblemore:misty_seed"
+	}
+}

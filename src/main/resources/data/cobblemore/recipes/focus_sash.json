@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"WCW",
+		"BSC",
+		"WBW"
+	],
+	"key": {
+		"W": {
+			"item": "minecraft:red_wool"
+		},
+		"C": {
+			"item": "minecraft:copper_ingot"
+		},
+		"B": {
+			"item": "minecraft:blaze_powder"
+		},
+		"S": {
+			"item": "cobblemon:black_belt"
+		}
+	},
+	"result": {
+		"item": "cobblemore:focus_sash"
+	}
+}

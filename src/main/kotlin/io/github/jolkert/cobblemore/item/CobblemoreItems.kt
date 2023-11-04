@@ -8,6 +8,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents
 import net.minecraft.item.Item
 import net.minecraft.item.ItemGroup
+import net.minecraft.item.ItemGroups
 import net.minecraft.registry.Registries
 import net.minecraft.registry.Registry
 import net.minecraft.registry.RegistryKey
@@ -69,6 +70,10 @@ object CobblemoreItems
 		useOnEntityItem("ability_capsule",CobblemonItemGroups.CONSUMABLES_KEY, ItemFunctions::useAbilityCapsule)
 	@JvmField val ABILITY_PATCH =
 		useOnEntityItem("ability_patch", CobblemonItemGroups.CONSUMABLES_KEY, ItemFunctions::useAbilityPatch)
+
+	// Materials
+	@JvmField val SHOAL_SALT = create("shoal_salt", ItemGroups.INGREDIENTS)
+	@JvmField val SHOAL_SHELL = create("shoal_shell", ItemGroups.INGREDIENTS)
 
 	// Held items
 	@JvmField val EVIOLITE = heldItem("eviolite")

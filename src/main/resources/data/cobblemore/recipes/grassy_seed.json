@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" C ",
+		"CSC",
+		" C "
+	],
+	"key": {
+		"C": {
+			"tag": "minecraft:saplings"
+		},
+		"S": {
+			"item": "minecraft:wheat_seeds"
+		}
+	},
+	"result": {
+		"item": "cobblemore:grassy_seed"
+	}
+}
