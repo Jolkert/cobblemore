@@ -76,7 +76,7 @@ Items with finalized sprite-work:
 - [ ] Wide Lens
 - [ ] Zoom Lens
 
-
+Thank you to AyItsPauley for the finalized textures!
 
 ## Find a bug?
 Report it on the [GitHub issues page](https://github.com/Jolkert/cobblemore/issues)!
