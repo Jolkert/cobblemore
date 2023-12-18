@@ -1,9 +1,8 @@
-package io.github.jolkert.cobblemore.item
+package dev.jolkert.cobblemore.item
 
-import com.cobblemon.mod.common.item.CobblemonItem
 import com.cobblemon.mod.common.item.group.CobblemonItemGroups
 import com.cobblemon.mod.common.pokemon.helditem.CobblemonHeldItemManager
-import io.github.jolkert.cobblemore.Cobblemore
+import dev.jolkert.cobblemore.Cobblemore
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents
 import net.minecraft.item.Item
@@ -12,7 +11,6 @@ import net.minecraft.item.ItemGroups
 import net.minecraft.registry.Registries
 import net.minecraft.registry.Registry
 import net.minecraft.registry.RegistryKey
-import net.minecraft.util.ActionResult
 import net.minecraft.util.Identifier
 
 

@@ -1,4 +1,4 @@
-package io.github.jolkert.cobblemore.item
+package dev.jolkert.cobblemore.item
 
 import net.minecraft.entity.LivingEntity
 import net.minecraft.entity.player.PlayerEntity

@@ -1,6 +1,6 @@
-package io.github.jolkert.cobblemore
+package dev.jolkert.cobblemore
 
-import io.github.jolkert.cobblemore.item.CobblemoreItems
+import dev.jolkert.cobblemore.item.CobblemoreItems
 import net.fabricmc.api.ModInitializer
 import net.minecraft.util.Identifier
 

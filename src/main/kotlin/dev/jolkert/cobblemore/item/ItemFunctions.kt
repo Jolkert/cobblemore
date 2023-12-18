@@ -1,12 +1,12 @@
-package io.github.jolkert.cobblemore.item
+package dev.jolkert.cobblemore.item
 
 import com.cobblemon.mod.common.api.Priority
 import com.cobblemon.mod.common.entity.pokemon.PokemonEntity
 import com.cobblemon.mod.common.pokemon.FormData
 import com.cobblemon.mod.common.pokemon.Pokemon
 import com.cobblemon.mod.common.util.asTranslated
-import io.github.jolkert.cobblemore.util.displayName
-import io.github.jolkert.cobblemore.util.lang
+import dev.jolkert.cobblemore.util.displayName
+import dev.jolkert.cobblemore.util.lang
 import net.minecraft.entity.LivingEntity
 import net.minecraft.entity.player.PlayerEntity
 import net.minecraft.item.ItemStack
