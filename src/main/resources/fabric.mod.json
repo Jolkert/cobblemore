@@ -9,7 +9,7 @@
     "AyItsPauley"
   ],
   "contact": {
-    "website": "jolkert.github.io",
+    "website": "jolkert.dev",
     "repo": "https://github.com/Jolkert/more_held_items"
   },
   "license": "GPL-3.0",
@@ -19,7 +19,7 @@
     "main": [
       {
         "adapter": "kotlin",
-        "value": "io.github.jolkert.cobblemore.Cobblemore"
+        "value": "dev.jolkert.cobblemore.Cobblemore"
       }
     ]
   },
