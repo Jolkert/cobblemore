@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "EPE",
+    " E "
+  ],
+  "key": {
+    "P": {
+      "item": "cobblemon:potion"
+    },
+    "E": {
+      "item": "minecraft:echo_shard"
+    },
+    "S": {
+      "item": "minecraft:sculk_shrieker"
+    }
+  },
+  "result": {
+    "item": "cobblemore:throat_spray"
+  }
+}

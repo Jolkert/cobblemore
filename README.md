@@ -5,11 +5,9 @@ Its unfinished and ugly, as most of the sprites are just resized sprites from bu
 ## What does it add?
 Cobblemore adds many held items that aren't present in base Cobblemon including:
 - Eviolite
-- Life Orb
 - Expert Belt
 - Air Balloon
 - Focus Sash
-- Flame/Toxic Orb
 - Weakness/Blunder Policy
 - Red Card
 - Eject Button/Pack
@@ -30,11 +28,7 @@ Cobblemore adds many held items that aren't present in base Cobblemon including:
 It also adds the Ability Capsule and Ability Patch items for changing abilities.  
 The shoal shells and shoal salt are added to craft the shell bell. They are both randomly dropped by sand, like how flint is obtained from gravel.
 
-Certain items are missing methods to obtain them in survival. These include:
-- Weakness/Blunder Policy
-- Loaded Dice
-- Throat Spray
-- Shed Shell
+The only item without any means of obtaining in survival in the current version is the Shed Shell
 
 ## Sprite Progress
 Items with finalized sprite-work:
@@ -49,12 +43,10 @@ Items with finalized sprite-work:
 - [ ] Electric Seed
 - [x] Eviolite
 - [ ] Expert Belt
-- [x] Flame Orb 
 - [ ] Focus Sash
 - [ ] Grassy Seed
 - [ ] Heat Rock 
 - [ ] Icy Rock
-- [x] Life Orb
 - [x] Loaded Dice
 - [ ] Metronome
 - [ ] Misty Seed
@@ -70,7 +62,6 @@ Items with finalized sprite-work:
 - [ ] Smooth Rock 
 - [ ] Terrain Extender
 - [ ] Throat Spray
-- [x] Toxic Orb
 - [ ] Utility Umbrella
 - [ ] Weakness Policy 
 - [ ] Wide Lens

@@ -75,7 +75,6 @@ object CobblemoreItems
 
 	// Held items
 	@JvmField val EVIOLITE = heldItem("eviolite")
-	@JvmField val LIFE_ORB = heldItem("life_orb")
 	@JvmField val EXPERT_BELT = heldItem("expert_belt")
 	@JvmField val AIR_BALLOON = heldItem("air_balloon")
 	@JvmField val FOCUS_SASH = heldItem("focus_sash")
@@ -98,9 +97,6 @@ object CobblemoreItems
 	@JvmField val ELECTRIC_SEED = heldItem("electric_seed")
 	@JvmField val GRASSY_SEED = heldItem("grassy_seed")
 	@JvmField val PSYCHIC_SEED = heldItem("psychic_seed")
-
-	@JvmField val FLAME_ORB = heldItem("flame_orb")
-	@JvmField val TOXIC_ORB = heldItem("toxic_orb")
 
 	@JvmField val METRONOME = heldItem("metronome")
 	@JvmField val SHELL_BELL = heldItem("shell_bell")

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "BRG",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:black_terracotta"
+    },
+    "G": {
+      "item": "minecraft:lime_terracotta"
+    },
+    "R": {
+      "item": "minecraft:rabbit_foot"
+    }
+  },
+  "result": {
+    "item": "cobblemore:loaded_dice"
+  }
+}
