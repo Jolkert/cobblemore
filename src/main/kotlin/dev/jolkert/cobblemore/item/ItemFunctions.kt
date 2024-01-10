@@ -74,7 +74,8 @@ object ItemFunctions
 		}
 
 		val newAbility =
-			(if (pokemon.hasHiddenAbility()) pokemon.form.normalAbilities.first() else pokemon.form.hiddenAbility).template.create()
+			(if (pokemon.hasHiddenAbility()) pokemon.form.normalAbilities.first() else pokemon.form.hiddenAbility)?.template?.create()
+				?: return ActionResult.FAIL
 
 		pokemon.ability = newAbility
 		pokemon.checkAbility()
@@ -84,7 +85,7 @@ object ItemFunctions
 	}
 
 	// LOW is hidden. LOWEST are normal
-	private val FormData.hiddenAbility get() = this.abilities.mapping[Priority.LOW]!!.first()
+	private val FormData.hiddenAbility get() = this.abilities.mapping[Priority.LOW]?.first()
 	private val FormData.normalAbilities get() = this.abilities.mapping[Priority.LOWEST]!!
-	private fun Pokemon.hasHiddenAbility() = this.ability.name == this.form.hiddenAbility.template.name
+	private fun Pokemon.hasHiddenAbility() = this.ability.name == this.form.hiddenAbility?.template?.name
 }
