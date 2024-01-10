@@ -1,3 +1,7 @@
+# Version 1.3.1
+### Fixes
+- Fixed [#2](https://github.com/Jolkert/cobblemore/issues/2) Ability Capsule not working on pokemon with no hidden ability
+
 # Version 1.3.0
 - Now compatible with **Cobblemon 1.4.1**
 
