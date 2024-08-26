@@ -7,7 +7,6 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents
 import net.minecraft.item.Item
 import net.minecraft.item.ItemGroup
-import net.minecraft.item.ItemGroups
 import net.minecraft.registry.Registries
 import net.minecraft.registry.Registry
 import net.minecraft.registry.RegistryKey
@@ -43,10 +42,6 @@ object CobblemoreItems
 	fun heldItem(id: String) = create(id, CobblemonItemGroups.HELD_ITEMS_KEY, true)
 
 	@JvmStatic
-	fun useOnEntityItem(id: String, groupKey: RegistryKey<ItemGroup>?, lambda: UseOverride) =
-		preRegister(id, UseOnEntityItem(FabricItemSettings(), lambda), groupKey)
-
-	@JvmStatic
 	fun preRegister(id: String, item: Item, groupKey: RegistryKey<ItemGroup>? = null, isHeldItem: Boolean = false) = item.also {
 		itemList.add(RegistryItem(it, Cobblemore.resource(id), groupKey, isHeldItem))
 	}
@@ -63,33 +58,7 @@ object CobblemoreItems
 		}
 	}
 
-	// Pokemon Modifying Items
-	@JvmField val ABILITY_CAPSULE =
-		useOnEntityItem("ability_capsule",CobblemonItemGroups.CONSUMABLES_KEY, ItemFunctions::useAbilityCapsule)
-	@JvmField val ABILITY_PATCH =
-		useOnEntityItem("ability_patch", CobblemonItemGroups.CONSUMABLES_KEY, ItemFunctions::useAbilityPatch)
-
-	// Materials
-	@JvmField val SHOAL_SALT = create("shoal_salt", ItemGroups.INGREDIENTS)
-	@JvmField val SHOAL_SHELL = create("shoal_shell", ItemGroups.INGREDIENTS)
-
-	// Held items
-	@JvmField val EVIOLITE = heldItem("eviolite")
-	@JvmField val EXPERT_BELT = heldItem("expert_belt")
-	@JvmField val AIR_BALLOON = heldItem("air_balloon")
-	@JvmField val FOCUS_SASH = heldItem("focus_sash")
-
-	@JvmField val WEAKNESS_POLICY = heldItem("weakness_policy")
-	@JvmField val BLUNDER_POLICY = heldItem("blunder_policy")
-
-	@JvmField val RED_CARD = heldItem("red_card")
-	@JvmField val EJECT_BUTTON = heldItem("eject_button")
 	@JvmField val EJECT_PACK = heldItem("eject_pack")
-
-	@JvmField val DAMP_ROCK = heldItem("damp_rock")
-	@JvmField val HEAT_ROCK = heldItem("heat_rock")
-	@JvmField val SMOOTH_ROCK = heldItem("smooth_rock")
-	@JvmField val ICY_ROCK = heldItem("icy_rock")
 
 	@JvmField val TERRAIN_EXTENDER = heldItem("terrain_extender")
 
@@ -99,8 +68,6 @@ object CobblemoreItems
 	@JvmField val PSYCHIC_SEED = heldItem("psychic_seed")
 
 	@JvmField val METRONOME = heldItem("metronome")
-	@JvmField val SHELL_BELL = heldItem("shell_bell")
-	@JvmField val LOADED_DICE = heldItem("loaded_dice")
 
 	@JvmField val WIDE_LENS = heldItem("wide_lens")
 	@JvmField val ZOOM_LENS = heldItem("zoom_lens")
@@ -110,8 +77,6 @@ object CobblemoreItems
 	@JvmField val ROOM_SERVICE = heldItem("room_service")
 
 	@JvmField val PROTECTIVE_PADS = heldItem("protective_pads")
-	@JvmField val COVERT_CLOAK = heldItem("covert_cloak")
 	@JvmField val UTILITY_UMBRELLA = heldItem("utility_umbrella")
 	@JvmField val SHED_SHELL = heldItem("shed_shell")
-
 }
